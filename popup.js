@@ -1,7 +1,7 @@
 let lastCommand = ''; // Track the last command used
 let recognition; // Store reference to the speech recognition instance
 
-const googleApiKey = "AIzaSyBz5uYoa3mnfYn71o-vhRxBvDfHQRMZJv4"; // Google Cloud API Key
+const googleApiKey = ""; // Google Cloud API Key
 
 document.addEventListener("DOMContentLoaded", () => {
     const startButton = document.getElementById("startListening");
